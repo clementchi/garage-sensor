@@ -33,7 +33,7 @@ var sendEmail = function(subject, content){
 			content = 'unknown content';
 		}
 	
-		console.log('mail is send to clementchi@yahoo.com '+content);
+		console.log('mail is sent with content: '+content);
 		// send mail
 		transporter.sendMail({
   			from: config.email.message.from,
